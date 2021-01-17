@@ -1,4 +1,4 @@
-
+//9. Вычислить значение функции:
 public class Task9 {
 	public static void main(String[] args) {
 		double x;
@@ -12,7 +12,7 @@ public class Task9 {
 		else {
 			f = 1/(Math.pow(x, 3)+6);
 		}
-		System.out.print("��������� = " + f);
+		System.out.print("Результат = " + f);
 	}
 	}
 
