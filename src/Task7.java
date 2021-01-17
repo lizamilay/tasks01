@@ -1,3 +1,4 @@
+//7. Подсчитать количество отрицательных среди чисел а, b, с.
 
 public class Task7 {
 	public static void main(String[] args) {
@@ -18,7 +19,7 @@ public class Task7 {
 		col = col +1;
 
 		}
-		System.out.println("���������� " + col);
+		System.out.println("Количество " + col);
 		return;
 
 		}
