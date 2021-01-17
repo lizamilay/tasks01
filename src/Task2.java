@@ -1,4 +1,4 @@
-
+//2. Вычислить значение выражения по формуле (все переменные принимают действительные значения):
 public class Task2 {
 	public static void main(String[] args) {
 		double a;
