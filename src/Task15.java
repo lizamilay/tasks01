@@ -1,3 +1,4 @@
+//15. РќР°Р№С‚Рё РќРћР” РґРІСѓС… С†РµР»С‹С… РїРѕР»РѕР¶РёС‚РµР»СЊРЅС‹С… С‡РёСЃРµР».
 import java.util.Scanner;
 public class Task15 {
 	 public static void main(String[] args) {
@@ -5,11 +6,11 @@ public class Task15 {
 		    int a, b, nod;
 		    a = 0;
 		    b = 0;
-		    System.out.print("Введите a: ");
+		    System.out.print("Р’РІРµРґРёС‚Рµ a: ");
 			if (sc.hasNextInt()) {
 		     a = sc.nextInt();
 			}
-			System.out.print("Введите b: ");
+			System.out.print("Р’РІРµРґРёС‚Рµ b: ");
 			if (sc.hasNextInt()) {
 		     b = sc.nextInt();
 			}
@@ -23,7 +24,7 @@ public class Task15 {
 		      a = b;
 		      b = nod;
 		    }
-		    System.out.println("Наибольший общий делитель равен: " + a);
+		    System.out.println("РќР°РёР±РѕР»СЊС€РёР№ РѕР±С‰РёР№ РґРµР»РёС‚РµР»СЊ СЂР°РІРµРЅ: " + a);
 		    sc.close();
 		  }
 	 
