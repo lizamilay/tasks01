@@ -1,15 +1,16 @@
+//14. Требуется определить факториал числа, которое ввел пользователь.
 import java.util.Scanner;
 public class Task14 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int a;
 		a = 0;
-		System.out.print("������� a: ");
+		System.out.print("Введите a: ");
 		if (sc.hasNextInt()) {
 	     a = sc.nextInt();
 		}
 	     while (a < 0) {
-	    	 System.out.print("������� a: ");
+	    	 System.out.print("Введите a: ");
 	 		if (sc.hasNextInt()) {
 	 	     a = sc.nextInt(); 
 	     }	
@@ -25,3 +26,4 @@ public class Task14 {
 	}
 
 }
+
